@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://your-backend-vercel-url.vercel.app'
+  apiUrl: 'https://foodieback.vercel.app/'
 };
