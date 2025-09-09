@@ -1,0 +1,78 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.order-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #FF7F00;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+    height: 200px; /* Add this to limit the height */
+    overflow-y: auto; /* Add this to enable scrolling if content overflows */
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: #FF7F00 1px solid;
+    border-radius: 0;
+    }
+
+    .item:last-child {
+    border-bottom: #FF7F00 1px solid;
+    }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+

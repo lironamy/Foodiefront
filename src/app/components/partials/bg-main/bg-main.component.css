@@ -1,0 +1,80 @@
+.bOeVHa {
+    position: relative;
+    background: url(https://tenbis-static.azureedge.net/10bis-spa-static-prod/assets/cdcf9893257f0875482f.jpg) center center / cover rgb(255, 128, 0);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -1;
+}
+
+.kaCWWu {
+    background-color: white;
+    position: absolute;
+    color: red;
+    left: 0px;
+    transform-origin: left top;
+    height: 100%;
+    bottom: -100%;
+    width: 125%;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+.kRjCbh {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(10, 56, 71);
+    padding-bottom: 16px;
+}
+
+.lmKqaF {
+    height: 35px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(102, 102, 102);
+    line-height: 22px;
+    height: 90px;
+    text-overflow: ellipsis;
+}
+
+.eEZFnF {
+    width: 1280px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+
+}
+
+@media (min-width: 1281px) {
+    .eEZFnF {
+        width: 1280px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .eEZFnF {
+        width: 350px;
+        margin: 0px auto;
+    }
+    
+    .bOeVHa {
+        height: 200px;
+    }
+    
+}   
+
+
+
+@media (max-width: 1570px){
+    .eEZFnF {
+        max-width: 900px;
+    }
+}

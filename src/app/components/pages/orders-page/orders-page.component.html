@@ -1,0 +1,30 @@
+<app-title title="Orders Page" margin="1.5rem 0 0 2.5rem"></app-title>
+<app-not-found
+  [visible]="!formattedOrders || !formattedOrders.length"
+  message="Orders Page Is Empty!"
+  resetLinkText="Go To Homepage"
+></app-not-found>
+<div class="container">
+    <div class="order-container" *ngFor="let order of formattedOrders">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Order ID: <br> {{ order.paymentId }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Order:</h6>
+            <ul class="item-list">
+            <li *ngFor="let item of order.items" class="item">
+                <div class="item-details">
+                {{ item.name }} x{{ item.quantity }}
+                </div>
+                <img class="item-image" src="{{ item.imageUrl }}" alt="{{ item.name }}" />
+            </li>
+            </ul>
+            <p class="card-text">Order Status: {{ order.status }}</p>
+            <p class="card-text">Order Total: {{ order.totalPrice }}$</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+  

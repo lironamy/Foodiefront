@@ -1,0 +1,9 @@
+<div>   
+    <input #s type="text"
+    placeholder="Search Foodie!" 
+    [value]="searchTerm" 
+    (keyup.enter)="search(s.value)"
+    >
+    
+    <button (click)="search(s.value)"> <img src="assets/search.svg" alt=""> </button>
+</div>
